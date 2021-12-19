@@ -15,15 +15,15 @@ module.exports = {
 
 // 多应用
 
-module.exports = {
-    entry: {
-        index: './src/index.js',
-        search: './src/helloword.js'
-    },
-    output: {
-        path: path.join(__dirname, 'dist'),
-        filename: "[name].bundle.js"
-
-    },
-    mode: "production" // development or production
-}
+// module.exports = {
+//     entry: {
+//         index: './src/index.js',
+//         search: './src/helloword.js'
+//     },
+//     output: {
+//         path: path.join(__dirname, 'dist'),
+//         filename: "[name].bundle.js"
+//
+//     },
+//     mode: "production" // development or production
+// }

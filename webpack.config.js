@@ -31,11 +31,21 @@ module.exports = {
             {
                 test: /.js$/, // /\.(js|mjs|jsx|ts|tsx)$/
                 use: 'babel-loader', // 解析es6语法
-                options: {
-                    presets: [
-
-                    ]
-                }
+            },
+            {
+                test: /.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            },
+            {
+                test: /.less$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'less-loader'
+                ]
             }
         ]
     }
